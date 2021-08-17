@@ -1,4 +1,6 @@
 import * as MaterialIcon from "react-icons/md";
+import Friend from "../friend/Friend";
+import { User } from "../../data";
 import "./sidebar.css";
 
 const Sidebar = () => {
@@ -38,30 +40,9 @@ const Sidebar = () => {
         <button className="sidebarButton">Show more</button>
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
-          <li className="sidebarFriend">
-            <img src="/assets/images/user1.jpg" alt="Friend" />
-            <span className="sidebarFriendName">Dan pro</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/images/user1.jpg" alt="Friend" />
-            <span className="sidebarFriendName">Dan pro</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/images/user1.jpg" alt="Friend" />
-            <span className="sidebarFriendName">Dan pro</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/images/user1.jpg" alt="Friend" />
-            <span className="sidebarFriendName">Dan pro</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/images/user1.jpg" alt="Friend" />
-            <span className="sidebarFriendName">Dan pro</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/images/user1.jpg" alt="Friend" />
-            <span className="sidebarFriendName">Dan pro</span>
-          </li>
+          {User.map((u) => (
+            <Friend key={u.id} user={u} />
+          ))}
         </ul>
       </div>
     </div>
