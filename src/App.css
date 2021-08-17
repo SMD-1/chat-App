@@ -6,12 +6,11 @@
 }
 .App {
   font-family: "Quicksand", sans-serif;
-  color: aliceblue;
   width: 100vw;
 }
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   html {
     width: 100%;
     font-size: 75%;
   }
-}
+} */

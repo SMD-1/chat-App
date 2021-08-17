@@ -1,6 +1,6 @@
 import "./topbar.css";
 import * as MaterialIcon from "react-icons/md";
-import profile from "../../assets/images/user2.jpg";
+import profile from "../../assets/images/user3.jpg";
 
 const Topbar = () => {
   return (
@@ -9,17 +9,17 @@ const Topbar = () => {
         <span className="logo">Lets Chat</span>
       </div>
       <div className="topbarCenter">
-        <MaterialIcon.MdSearch size="1.5rem" style={{ marginRight: "10px" }} />
         <input
           type="text"
           placeholder="Search for friends or posts"
           className="searchInput"
         />
+        <MaterialIcon.MdSearch size="1.5rem" style={{ marginLeft: "10px" }} />
       </div>
       <div className="topbarRight">
         <div className="topbarLinks">
           <span className="topbarLink" style={{ margin: "0 10px" }}>
-            Homepage
+            Home
           </span>
           <span className="topbarLink" style={{ margin: "0 10px" }}>
             Timeline
