@@ -51,6 +51,8 @@
 .caption p {
   width: 100%;
   margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .postCenter img {
   border-radius: 10px;

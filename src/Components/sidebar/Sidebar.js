@@ -39,27 +39,27 @@ const Sidebar = () => {
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
           <li className="sidebarFriend">
-            <img src="/assets/images/user4.jpg" alt="Friend" />
+            <img src="/assets/images/user1.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src="/assets/images/user4.jpg" alt="Friend" />
+            <img src="/assets/images/user1.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src="/assets/images/user4.jpg" alt="Friend" />
+            <img src="/assets/images/user1.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src="/assets/images/user4.jpg" alt="Friend" />
+            <img src="/assets/images/user1.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src="/assets/images/user4.jpg" alt="Friend" />
+            <img src="/assets/images/user1.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src="/assets/images/user4.jpg" alt="Friend" />
+            <img src="/assets/images/user1.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
         </ul>

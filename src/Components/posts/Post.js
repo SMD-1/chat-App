@@ -1,17 +1,25 @@
 import * as MaterialIcon from "react-icons/md";
+import { User } from "../../data";
 import "./post.css";
 
-const Post = () => {
+const Post = ({ post }) => {
+  console.log(post);
+  const { photo, caption, date, like, comment, userId } = post;
   return (
     <div className="post">
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-            <img src="/assets/images/user3.jpg" alt="user-profile" />
+            <img
+              src={User.filter((u) => u.id === userId)[0].profilePicture}
+              alt="user-profile"
+            />
             <div className="postDetails">
-              <span className="postUserName">Dan shaikh</span>
+              <span className="postUserName">
+                {User.filter((u) => u.id === userId)[0].username}
+              </span>
               <small>
-                <span className="postDate">1hr ago</span>
+                <span className="postDate">{date}</span>
               </small>
             </div>
           </div>
@@ -22,13 +30,9 @@ const Post = () => {
         <hr className="postHr" />
         <div className="postCenter">
           <span className="caption">
-            <p> Caption will be Here :)</p>
+            <p> {caption} </p>
           </span>
-          <img
-            src="/assets/posts/post2.jpg"
-            alt="post1"
-            className="postImage"
-          />
+          <img src={photo} alt="post1" className="postImage" />
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
@@ -40,10 +44,10 @@ const Post = () => {
               className="postBottomIcon"
               color="#E11D48"
             />
-            <span className="likeCount">234</span>
+            <span className="likeCount">{like}</span>
           </div>
           <div className="postBottomRight">
-            <span className="postComment">10 Comments</span>
+            <span className="postComment">{comment} Comments</span>
           </div>
         </div>
       </div>
