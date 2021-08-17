@@ -1,5 +1,4 @@
 import * as MaterialIcon from "react-icons/md";
-import Friend1 from "../../assets/images/user1.jpg";
 import "./sidebar.css";
 
 const Sidebar = () => {
@@ -40,27 +39,27 @@ const Sidebar = () => {
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
           <li className="sidebarFriend">
-            <img src={Friend1} alt="Friend" />
+            <img src="/assets/images/user4.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src={Friend1} alt="Friend" />
+            <img src="/assets/images/user4.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src={Friend1} alt="Friend" />
+            <img src="/assets/images/user4.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src={Friend1} alt="Friend" />
+            <img src="/assets/images/user4.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src={Friend1} alt="Friend" />
+            <img src="/assets/images/user4.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
           <li className="sidebarFriend">
-            <img src={Friend1} alt="Friend" />
+            <img src="/assets/images/user4.jpg" alt="Friend" />
             <span className="sidebarFriendName">Dan pro</span>
           </li>
         </ul>

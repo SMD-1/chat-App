@@ -1,6 +1,5 @@
 import "./topbar.css";
 import * as MaterialIcon from "react-icons/md";
-import profile from "../../assets/images/user3.jpg";
 
 const Topbar = () => {
   return (
@@ -39,7 +38,11 @@ const Topbar = () => {
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
-        <img src={profile} alt="profile" className="topbarImg" />
+        <img
+          src="/assets/images/user3.jpg"
+          alt="profile"
+          className="topbarImg"
+        />
       </div>
     </div>
   );

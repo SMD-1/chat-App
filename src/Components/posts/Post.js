@@ -1,6 +1,4 @@
-import profile from "../../assets/images/user3.jpg";
 import * as MaterialIcon from "react-icons/md";
-import post from "../../assets/posts/post2.jpg";
 import "./post.css";
 
 const Post = () => {
@@ -9,7 +7,7 @@ const Post = () => {
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-            <img src={profile} alt="user-profile" />
+            <img src="/assets/images/user3.jpg" alt="user-profile" />
             <div className="postDetails">
               <span className="postUserName">Dan shaikh</span>
               <small>
@@ -26,7 +24,11 @@ const Post = () => {
           <span className="caption">
             <p> Caption will be Here :)</p>
           </span>
-          <img src={post} alt="post1" className="postImage" />
+          <img
+            src="/assets/posts/post2.jpg"
+            alt="post1"
+            className="postImage"
+          />
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">

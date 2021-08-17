@@ -1,4 +1,3 @@
-import profile from "../../assets/images/user3.jpg";
 import * as MaterialIcon from "react-icons/md";
 import "./share.css";
 
@@ -7,7 +6,7 @@ const Share = () => {
     <div className="share">
       <div className="shareWrapper">
         <div className="shareTop">
-          <img src={profile} alt="user-profile" />
+          <img src="/assets/images/user3.jpg" alt="user-profile" />
           <input
             type="text"
             className="shareInput"
