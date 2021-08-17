@@ -6,7 +6,7 @@
 }
 .App {
   font-family: "Quicksand", sans-serif;
-  width: 100vw;
+  width: 100%;
 }
 *::selection {
   background: #4f46e5;
